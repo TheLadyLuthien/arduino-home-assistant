@@ -371,7 +371,7 @@ protected:
         const uint16_t length
     ) override;
 
-private:
+protected:
     /**
      * Publishes the MQTT message with the given state.
      *
